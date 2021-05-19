@@ -1,0 +1,70 @@
+body{
+  letter-spacing: 1.5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+.btn{
+  text-transform: unset;
+}
+.navbar ul li a:hover{
+  color: blue !important;
+}
+.active-nav{
+  color: blue !important;
+} 
+/*----Register & Login------*/
+.signup{
+  padding-top: 105px;
+}
+.signupreg{
+  padding-top: 90px;
+}
+/*---home-----*/
+.home{
+  padding-top: 350px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  background: linear-gradient(45deg, rgb(161, 230, 96), rgb(10, 192, 131), rgb(161, 230, 96));
+  width: 100%;
+  height: 100vh;
+}
+/*-----about--------*/
+.paddabout{
+  padding-top: 130px;
+}
+/*------contact--------*/
+.paddcontact{
+  padding-top: 100px;
+}
+.contact{
+  font-size: 16px;
+}
+/*----error page------*/
+.errro-img{
+  width: 100%;
+  height: 100vh;
+  background-position: 100 100;
+}
+.err{
+  margin-top: -270px;
+}
+.btn-round{
+  border-radius: 25px;
+}
+/*---media queries-----*/
+@media (max-width: 575px) {
+  /*---login----*/
+  .login{
+    width: 100% !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  /*---login----*/
+  .login{
+    width: 100% !important;
+  }
+}
